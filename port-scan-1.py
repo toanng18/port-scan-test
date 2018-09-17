@@ -12,6 +12,7 @@ subprocess.call('clear', shell=True)
 
 # other user 
 t2 = datetime.now()
+t4 = datetime.now()
 
 # local change
 t3 = datetime.now()
