@@ -10,6 +10,7 @@ from datetime import datetime
 # Clear the screen
 subprocess.call('clear', shell=True)
 
+raw_input = 0
 # Ask for input
 remoteServer    = raw_input("Enter a remote host to scan: ")
 remoteServerIP  = socket.gethostbyname(remoteServer)
