@@ -13,6 +13,9 @@ subprocess.call('clear', shell=True)
 # other user 
 t2 = datetime.now()
 
+# local change
+t3 = datetime.now()
+
 # set variable
 raw_input = 20000
 
