@@ -13,7 +13,7 @@ subprocess.call('clear', shell=True)
 # other user 
 
 # set variable
-raw_input = 200
+raw_input = 20000
 
 # Ask for input
 remoteServer    = raw_input("Enter a remote host to scan: ")
