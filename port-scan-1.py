@@ -12,7 +12,9 @@ subprocess.call('clear', shell=True)
 
 # other user 
 
-raw_input = 0
+# set variable
+raw_input = 200
+
 # Ask for input
 remoteServer    = raw_input("Enter a remote host to scan: ")
 remoteServerIP  = socket.gethostbyname(remoteServer)
